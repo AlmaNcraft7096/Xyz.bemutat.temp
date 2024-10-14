@@ -1,43 +1,58 @@
-.container .box:hover .imgBox {
-    transform: translate(-3.5rem, -3.5rem);
-}
-
-.container .box:hover .content {
+.box:hover .imgBox {
     transform: translate(3.5rem, 3.5rem);
 }
 
+.box:hover .content {
+    transform: translate(-3.5rem, -3.5rem);
+}
+
 .imgBox{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
     transition: all 0.5s ease-in-out;
+    position: absolute;
+    height: 224px;
+    width: 224px;
+    z-index: 2;
+}
+
+.imgBox img {
+    border-radius: 35px;
+    border: 5px solid #73AD21;
+    object-fit: cover;
+    resize: both;
+    width: 224px;
+    height: 224px;
+}
+
+.box {
+    position: absolute;
+    height: 224px;
+    width: 224px;
+}
+
+.content{
+    background-color: rgb(175, 215, 111);
+    transition: all 0.5s ease-in-out;
+    border-radius: 35px;
+    border: 5px solid #73AD21;
+    object-fit: cover;
+    resize: both;
+    width: 224px;
+    height: 224px;
 }
 
 #A {
-    top: 0;
-    left: 0;
+    top: 100px;
+    left: 50px;
 }
 
 #B {
-    top: 0;
+    top: 100px;
     left: 600px;
 }
 
 #C {
-    top: 0;
+    top: 100px;
     left: 1200px;
-}
-
-.imgBox img {
-    width: 30rem;
-    height: 30rem;
-    object-fit: cover;
-    resize: both;
-}
-
-.content{
-    background-color: aliceblue;
 }
 
 body{
