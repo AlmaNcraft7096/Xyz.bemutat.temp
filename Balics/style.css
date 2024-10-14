@@ -1,0 +1,19 @@
+
+
+body{
+    background-color: black;
+}
+
+header{
+    background-image: url(img/snapedit_1728894740947.png);
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+}
+
+header h1{
+    position: absolute;top: 400px;left: 450px;
+    font-variant-caps: small-caps;
+}
