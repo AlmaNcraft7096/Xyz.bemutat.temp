@@ -6,12 +6,6 @@
     transform: translate(-3.5rem, -3.5rem);
 }
 
-.Egg:hover{
-    opacity: 100%;
-    transform: scaleY(750) scaleX(2)
-    
-}
-
 .Egg{
     background-color: black;
     z-index: 1000;
