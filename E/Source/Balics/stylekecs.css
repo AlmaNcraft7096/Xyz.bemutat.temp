@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+}
+
+header{
+    height: 200px;
+    background-color: wheat;
+    border-radius: 100px;
+    margin-bottom: 40px; 
+}
+
+#cím{
+    text-align: center;
+    font-size: 500%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#szöv1{
+    color: bisque;
+    position: relative;top: 50px;
+    text-align: justify;
+}
+
+#szöv2{
+    color: bisque;
+    position: relative;top: 50px;
+    text-align: justify;
+}
+
+#szöv3{
+    color: bisque;
+    position: relative;top: 50px;
+    text-align: justify;
+}
+
+footer{
+    width: 300px;
+    height: 50px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: wheat;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#vissza{
+    padding-top: 12px;
+}
+
+h2{
+    color: beige;
+}
