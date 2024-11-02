@@ -5,35 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
     <link rel="stylesheet" href="Css/xyz.main.css">
+    <link rel="stylesheet" href="">
 </head>
 <body>
-    
-    <div class="box" id="A">
-        <div class="imgBox">
-            <img src="img/1.png" alt="2">
+    <div class="Egg" id="egg"></div>
+    <div class="All">
+        <nav>
+            <ul class="horizontal">
+                <li><a class="active">Home</a></li>
+                <li><a>News</a></li>
+                <li><a>Contact</a></li>
+                <li><a href="#egg">About</a></li>
+            </ul>
+        </nav>
+        <div class="box" id="A">
+            <div class="imgBox">
+                <a href="#egg" data-href="../Balics/Fő oldal.html" id="delayedLink"><img src="img/1.png" alt="2"></a>
+            </div>
+            <div class="content">
+                <h2>Gray fuzz</h2>
+            </div>
         </div>
-        <div class="content">
-            <h2>Gray fuzz</h2>
+        
+        <div class="box" id="B">
+            <div class="imgBox">
+                <img src="img/2.png" alt="2">
+            </div>
+            <div class="content">
+                <h2>Wood</h2>
+            </div>
+        </div>
+        
+        <div class="box" id="C">
+            <div class="imgBox">
+                <img src="img/3.png" alt="3">
+            </div>
+            <div class="content">
+                <h2>Sand</h2>
+            </div>
         </div>
     </div>
-    
-    <div class="box" id="B">
-        <div class="imgBox">
-            <img src="img/2.png" alt="2">
-        </div>
-        <div class="content">
-            <h2>Wood</h2>
-        </div>
-    </div>
-    
-    <div class="box" id="C">
-        <div class="imgBox">
-            <img src="img/3.png" alt="3">
-        </div>
-        <div class="content">
-            <h2>Sand</h2>
-        </div>
-    </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
