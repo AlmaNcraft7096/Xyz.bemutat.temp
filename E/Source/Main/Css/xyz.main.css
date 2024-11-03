@@ -1,95 +1,14 @@
-.box:hover .imgBox {
-    transform: translate(3.5rem, 3.5rem);
-}
-
-.box:hover .content {
-    transform: translate(-3.5rem, -3.5rem);
-}
-
-.Egg{
-    background-color: black;
-    z-index: 1000;
-    height: 2px;
-    width: 110%;
-    opacity: 100%;
-    transition:ease-in-out 1s;
-}
-
-.expanded{
-    opacity: 100%;
-    transform: scaleY(750) scaleX(2)
-}
-
 #egg:target{
     opacity: 100%;
     transform: scaleY(750) scaleX(2)
 }
 
-.imgBox{
-    transition: all 0.5s ease-in-out;
-    position: absolute;
-    height: 224px;
-    width: 224px;
-    z-index: 2;
-}
 
-.imgBox img {
-    border-radius: 35px;
-    border: 5px solid #73AD21;
-    object-fit: cover;
-    resize: both;
-    width: 224px;
-    height: 224px;
-}
 
-.box {
-    position: absolute;
-    height: 224px;
-    width: 224px;
-}
-
-.content{
-    background-color: rgb(175, 215, 111);
-    transition: all 0.5s ease-in-out;
-    border-radius: 35px;
-    border: 5px solid #73AD21;
-    object-fit: cover;
-    resize: both;
-    width: 224px;
-    height: 224px;
-}
-
-#A {
-    top: 100px;
-    left: 50px;
-}
-
-#B {
-    top: 100px;
-    left: 300px;
-}
-
-#C {
-    top: 100px;
-    left: 600px;
-}
 
 body{
     background-color: aqua;
 }
-
-.All{
-    background-color: #FFEEAD;
-    position:fixed;
-    align-items: center;
-    width:100%;
-    height:100%;
-    top:0px;
-    left:0px;
-    z-index:-1000;
-}
-
-
 
 nav{
     background-color: red;
