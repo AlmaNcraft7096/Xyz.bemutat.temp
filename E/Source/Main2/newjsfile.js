@@ -17,7 +17,7 @@
             setTimeout(() => {
                 // Redirect to the URL specified in data-href
                 window.location.href = redirectUrl;
-            }, 2500); // 5 seconds
+            }, 2500);
         }
 
         // Loop through each link and add the click event listener

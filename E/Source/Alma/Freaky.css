@@ -1,0 +1,33 @@
+#egg{
+    background-color: black;
+    opacity: 100%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color:white;
+    text-align: center;
+}
+
+#All:hover #egg{
+    background-color: black;
+    height: 1px;
+    width: 100%;
+    opacity: 100%;
+    transition:ease-in-out 2.5s;
+    position: relative;  
+    color:white;
+    text-align: center;
+}
+
+#All{
+    background-color: #FFEEAD;
+    position:fixed;
+    align-items: center;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:-1000;
+}
+
+

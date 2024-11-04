@@ -15,7 +15,7 @@
     width: 110%;
     opacity: 100%;
     transition:ease-in-out 2.5s;
-    z-index: 3;
+    z-index: 1000;
 }
 
 .expanded{
