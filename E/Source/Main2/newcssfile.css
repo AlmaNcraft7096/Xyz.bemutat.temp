@@ -21,6 +21,7 @@
 .expanded{
     z-index: 99;
     opacity: 100%;
+    position: relative;
     transform: scaleY(2550) scaleX(2)
 }
 
